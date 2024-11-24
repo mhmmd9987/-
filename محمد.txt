@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Egypt</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; overflow-x: hidden; }
+        header { background: #2c3e50; color: white; text-align: center; padding: 40px; }
+        header h1 { font-size: 3.5em; }
+        section { padding: 20px; margin: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); opacity: 0; animation: fadeIn 1s ease-out forwards; }
+        section h2 { color: #2c3e50; font-size: 2em; }
+        section p { line-height: 1.6; font-size: 1.1em; }
+        .image-container { text-align: center; margin-top: 20px; opacity: 0; animation: fadeIn 1.5s ease-out forwards; }
+        .image-container img { max-width: 100%; height: auto; border-radius: 10px; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; font-size: 1.2em; opacity: 0; animation: fadeIn 2s ease-out forwards; }
+        @keyframes fadeIn { 0% { opacity: 0; transform: translateY(50px); } 100% { opacity: 1; transform: translateY(0); } }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+    <header><h1>Discover Egypt</h1></header>
+    <section><h2>Introduction</h2><p>Egypt is one of the most iconic countries in the world, known for the Pyramids of Giza and its rich history.</p><div class="image-container"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Pyramids_of_Giza.jpg" alt="Pyramids of Giza"></div></section>
+    <section><h2>History</h2><p>Egypt's civilization dates back to the Pharaonic period, famous for the Pyramids and hieroglyphic writing.</p></section>
+    <section><h2>Culture</h2><p>Egypt has a rich cultural heritage, with Arabic being the official language and Islam the predominant religion.</p></section>
+    <section><h2>Modern Egypt</h2><p>Modern Egypt is a thriving country with a strong economy and a blend of ancient and contemporary culture in Cairo.</p></section>
+    <footer><p>Mohamed Abdel-Raouf, 9th Grade, Fourth Term, Submitted to Professor Aouni</p></footer>
+</body>
+</html>
